@@ -12,3 +12,32 @@ header {
     }
   }
 }
+
+main {
+  padding: 10px;
+  text-align: center;
+}
+
+#Apresentacao, #Historico, #Projetos {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  font-size: larger;
+  div {
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 50000000px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    img {
+      border-radius: 50000000px;
+      width: 25%;
+    }
+    p {
+      width: 70%;
+    }
+
+  }
+}
