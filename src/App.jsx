@@ -15,7 +15,7 @@ function App() {
       <br />
 
       <main>
-        <section id='Apresentacao'>
+        <section className='sessao'>
           <h2>Apresentação</h2>
           <div>
             <img src="../src/assets/eu.png" alt="Foto minha" />
@@ -23,11 +23,15 @@ function App() {
           </div>
         </section>
 
-        <section id='Historico'>
+        <section className='sessao'>
           <h2>Histórico</h2>
+          <div>
+            <p>Programa de Aprendizagem Bosch</p>
+            <img src="../src/assets/bosch_logo_2.png" alt="Foto minha" />
+          </div>
         </section>
 
-        <section id='Projetos'>
+        <section className='sessao'>
           <h2>Projetos</h2>
         </section>
       </main>
