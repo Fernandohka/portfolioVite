@@ -43,3 +43,13 @@ main {
   flex-direction: column;
   gap: 10rem;
 }
+
+footer {
+  display: flex;
+  background-color: var(--backgroundHeader);
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 10px;
+  margin-top: 40px;
+}

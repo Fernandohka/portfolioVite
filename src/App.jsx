@@ -55,6 +55,12 @@ function App() {
           </div>
         </section>
       </main>
+
+      <footer>
+        <h3>Contato: </h3>
+        <a href="https://wa.me/41996956665/?text=Tó%20Dinheiro" target='_blank'><img className='zap' src="../src/assets/whatsapp.png" alt="" /></a>
+
+      </footer>
     </>
   )
 }
