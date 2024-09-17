@@ -18,8 +18,8 @@ function App() {
         <section id='Apresentacao' className='sessao'>
           <h2>Apresentação</h2>
           <div className='card'>
-            <img src="../src/assets/eu.png" alt="Foto minha" />
-            <p>Meu nome é Fernando Henrique Krizanoski de Andrade, tenho 19 anos Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea accusantium distinctio, eligendi dolorum necessitatibus. Alias quisquam vitae, incidunt rerum quos, molestias id expedita impedit fuga odit ad fugit deleniti.</p>
+            <img src="./eu.png" alt="Foto minha" />
+            <p>Meu nome é Fernando Henrique Krizanoski de Andrade, tenho 19 anos. Gosto de programação, minha área favorita é games. Atualmente estou trabalhando como aprendiz em soluções digitais na Bosch.</p>
           </div>
         </section>
 
@@ -27,7 +27,7 @@ function App() {
           <h2>Histórico</h2>
           <div className='card'>
             <p>Programa de Aprendizagem Bosch</p>
-            <img src="../src/assets/bosch_logo_2.png" alt="Foto Bosch" />
+            <img src="./bosch_logo_2.png" alt="Foto Bosch" />
           </div>
         </section>
 
@@ -35,7 +35,7 @@ function App() {
           <h2>Projetos</h2>
           <div>
             <div className='card'>
-              <img src="../src/assets/Ternaria.png" alt="" />
+              <img src="./Ternaria.png" alt="" />
               <div>
                 <h2>Ternaria</h2>
                 <p>O Ternaria é um projeto de conclusão da matéria de Lógica de Programação que tive no curso de desenvolvimento de sistemas do Senai. Este projeto foi desenvolvido em conjunto com 2 amigos meus, e a sua primeira versão foi concluída com um prazo de 7 dias.</p>
@@ -45,7 +45,7 @@ function App() {
             </div>
             <br />
             <div className='card'>
-              <img src="../src/assets/IMG-20240907-WA0009.jpg" alt="" />
+              <img src="./IMG-20240907-WA0009.jpg" alt="" />
               <div>
                 <h2>My Movie List</h2>
                 <p>Site para anotar quais filmes e séries você assistiu e dar uma nota para eles.</p>
@@ -58,7 +58,7 @@ function App() {
 
       <footer>
         <h3>Contato: </h3>
-        <a href="https://wa.me/41996956665/?text=Tó%20Dinheiro" target='_blank'><img className='zap' src="../src/assets/whatsapp.png" alt="" /></a>
+        <a href="https://wa.me/41996956665/?text=Tó%20Dinheiro" target='_blank'><img className='zap' src="./whatsapp.png" alt="" /></a>
 
       </footer>
     </>
