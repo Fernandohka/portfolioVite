@@ -1,3 +1,9 @@
+:root {
+  --background: rgb(173, 217, 255);
+  --backgroundHeader: rgb(131, 196, 253);
+  --black: rgb(0, 0, 0);
+}
+
 * {
   padding: 0;
   border: 0;
@@ -5,6 +11,35 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rgb(173, 217, 255);
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--black);
+  padding-top: 8rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--backgroundHeader);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10rem;
 }

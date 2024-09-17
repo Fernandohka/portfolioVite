@@ -1,4 +1,4 @@
-header {
+/* header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,11 +10,10 @@ header {
   div {
     display: flex;
     gap: 10px;
-    a {
-      text-decoration: none;
-    }
   }
 }
+
+
 
 main {
   padding: 10px;
@@ -27,7 +26,7 @@ main {
   margin-top: 100px;
   margin-bottom: 280px;
   font-size: larger;
-  div {
+  .card {
     padding: 25px;
     border: 2px solid;
     border-radius: 50000000px;
@@ -37,11 +36,59 @@ main {
     justify-content: space-between;
     img {
       border-radius: 50000000px;
-      width: 25%;
+      width: 50%;
     }
-    p {
-      width: 70%;
+    p, h2 {
+      width: 45%;
     }
 
   }
+} */
+
+a {
+  text-decoration: none;
+}
+
+.iconsNav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+
+.sessao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 80vw;
+  justify-content: center;
+  border: 2px solid var(--black);
+  border-radius: 1.5rem;
+  padding: 20px;
+  width: 75vw;
+  flex-wrap: wrap;
+}
+
+.card > img {
+  max-width: 75%;
+  border-radius: 30rem;
+}
+
+.card > div {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.card > div > h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
